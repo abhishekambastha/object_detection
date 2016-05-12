@@ -8,8 +8,8 @@ import cv2
 
 def main():
 
-    prototxt = './faster_rcnn_alt_opt/faster_rcnn_test.pt'
-    caffemodel = './faster_rcnn_models/VGG16/VGG16_faster_rcnn_final.caffemodel'
+    prototxt = './caffe_models/faster_rcnn_test.pt'
+    caffemodel = './caffe_models/VGG16_faster_rcnn_final.caffemodel'
 
     caffe.set_mode_gpu()
     caffe.set_device(0)
