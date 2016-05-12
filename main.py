@@ -78,4 +78,5 @@ def im_detect(net, im):
 
 
 
-
+if __name__=='__main__':
+    main()
